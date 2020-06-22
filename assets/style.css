@@ -1,5 +1,9 @@
 body {
-    background-color: rgb(188, 188, 188);
+    background-image: url("../assets/concert.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
 }
 body div {
     margin-top: 200px
@@ -7,6 +11,7 @@ body div {
 .window {
     text-align: center;
     list-style-position: inside;
+    font-style: color yellow;
 }
 
 h1 {
@@ -39,6 +44,7 @@ ol {
 button {
     background-color: rgb(94, 169, 231);
     font-weight: bold;
-    border-bottom-left-radius: 25%;
+    border-radius: 12px;
     font-size: 25px;
+    box-shadow: 0 3px gray;
 }

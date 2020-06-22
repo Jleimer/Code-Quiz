@@ -52,7 +52,7 @@ function timer(){
     // var timeLeft = 30;
     var timeInterval = setInterval(function() {
         timeLeft = timeLeft - 1
-        timerEl.textContent = timeLeft + "seconds remaining."
+        timerEl.textContent = timeLeft + " Seconds Remaining."
         if (timeLeft <= 0) {
           clearInterval(timeInterval);
           displayMessage();
