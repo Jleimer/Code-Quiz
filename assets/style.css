@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(188, 188, 188);
+}
+body div {
+    margin-top: 200px
+}
+.window {
+    text-align: center;
+    list-style-position: inside;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+ol {
+   position: relative;
+   float: left;
+   left: 41%;
+   font-weight: bolder;
+
+}
+.hidden {
+    display: none;
+
+}
+
+
+button {
+    background-color: rgb(94, 169, 231);
+    font-weight: bold;
+    border-bottom-left-radius: 25%;
+    font-size: 25px;
+}
